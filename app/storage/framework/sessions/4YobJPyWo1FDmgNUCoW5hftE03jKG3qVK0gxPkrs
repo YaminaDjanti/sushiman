@@ -1,0 +1,5 @@
+a:5:{s:6:"_token";s:40:"DsVDXww0H33PVHpxujEkRB2HVlIvMgfWwUZO54qf";s:9:"_previous";a:1:{s:3:"url";s:59:"http://localhost/sushiman/sushiman/public/single_product/35";}s:6:"_flash";a:2:{s:3:"old";a:0:{}s:3:"new";a:0:{}}s:6:"panier";O:10:"App\Panier":3:{s:5:"items";a:1:{i:35;a:6:{s:3:"qty";i:3;s:10:"product_id";s:2:"35";s:12:"product_name";s:25:"ComboD +2 accompagnements";s:13:"product_price";s:5:"11.90";s:13:"product_image";s:22:"combo_d_1591712259.jpg";s:4:"item";O:8:"stdClass":10:{s:2:"id";i:35;s:11:"nom_produit";s:25:"ComboD +2 accompagnements";s:4:"prix";s:5:"11.90";s:9:"categorie";s:16:"Formules du midi";s:13:"product_image";s:22:"combo_d_1591712259.jpg";s:19:"description_produit";s:78:"6 Californias Apple
+
+6 Makis avocat
+
+6 Makis Chêvre frais Tomate séchée";s:10:"allergenes";s:1:" ";s:6:"status";i:1;s:10:"created_at";N;s:10:"updated_at";N;}}}s:8:"totalQty";i:1;s:10:"totalPrice";d:35.7;}s:7:"message";N;}
