@@ -61,6 +61,11 @@ class SliderController extends Controller
      
         DB::table('sliders')
             ->insert($data);
+
+            $fileImage = fopen('storage/slider_images/'.$fileNameToStore,'w');
+                    //file_get_contents()
+            fwrite($fileImage,file_get_contents($request->file('slider_image')));
+
      
         Session::put('message','slider ajouté avec succès');
         return redirect::to('/admin/ajouterslider');

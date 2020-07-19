@@ -7,29 +7,27 @@
                       <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
                       <a href="tel:0556291152"><span class="text">05 56 29 11 52</span></a>
                   </div>
-                  <div class="col-md pr-4 d-flex topper align-items-center popup">
+                  <div class="col-md pr-4 d-flex topper align-items-center">
+                    <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                    <span class="text">Lundi au samedi 10h15->14h00</span>
+                    <span class="text">Tous les soirs 18h00->22h00</span>
+                </div>
+                  {{-- <div class="col-md pr-4 d-flex topper align-items-center popup">
                       
-                      <span class="text"><?php
+                      <span class="text">
                         echo date('Y-m-d G:i:s');
                         ?>
                         </span>
-                        {{-- <span><a href="">Voir toutes les horaires</a></span> --}}
-
-
-                        <!--Creates the popup body-->
                             <div class="popup-overlay">
-                                <!--Creates the popup content-->
                                 <div class="popup-content">
                                     <span class="text">Lundi au samedi 10h15->14h00</span>
                                     <span class="text">Tous les soirs 18h00->22h00</span>
-                                <!--popup's close button-->
                                     <button class="close">fermer</button>    
                                 </div>
                                 </div>
-                                
-                                {{-- <h2 class="btn btn-outline-info">Voir toutes les horaires</h2> --}}
+
                                 <a class="open text "> Voir toutes les horaires</a>
-                  </div>
+                  </div> --}}
                   <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
                       
                       <a href="{{URL::to('/#services')}}"><span class="text">Livraison | Emporter | Sur place au Bouscat</span>

@@ -6,6 +6,7 @@
     ->get();
 
 $increment = 1;
+$publicImageStorage='http://localhost/sushiman/sushiman/public/storage';
 
 ?>
 <div class="main-panel">
@@ -67,7 +68,7 @@ $increment = 1;
                         
                     <tr>
                     <td><?php echo e($increment); ?></td>
-                        <td><img src="storage/slider_images/<?php echo e($slider->slider_image); ?>" alt="<?php echo e($slider->slider_image); ?>">
+                        <td><img src="<?php echo e($publicImageStorage); ?>/slider_images/<?php echo e($slider->slider_image); ?>" alt="<?php echo e($slider->slider_image); ?>">
                           </td>
                         <td><?php echo e($slider->description1); ?></td>
                         <td><?php echo e($slider->description2); ?></td>

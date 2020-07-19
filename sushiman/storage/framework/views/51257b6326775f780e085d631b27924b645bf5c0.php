@@ -14,11 +14,11 @@
         $produitsPlateaux=DB::table('produits')
             ->where('categorie','Plateaux')
             ->where('status',1)
-            ->paginate(2);
+            ->paginate(3);
         $formuleMidis=DB::table('produits')
             ->where('categorie','Formules du midi')
             ->where('status',1)
-            ->paginate(6);  
+            ->paginate(3);  
         
             $anchor = 'produitsList';  
        
@@ -133,9 +133,9 @@
     	<div class="container" id="containerPlateaux">
     		<div class="row">
                 <?php $__currentLoopData = $produitsPlateaux; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $produitsPlateau): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="col-md-6 col-lg-3 ftco-animate hauteur-limite-card pb-2">
                         <div class="product">
-                            <a href="<?php echo e(URL::to('/single_product/'.$produitsPlateau->id)); ?>" class="img-prod"><img class="img-fluid" src="storage/cover_images/<?php echo e($produitsPlateau->product_image); ?>" alt="<?php echo e($produitsPlateau->product_image); ?>"> 
+                            <a href="<?php echo e(URL::to('/single_product/'.$produitsPlateau->id)); ?>" class="img-prod card-img d-block"><img class="img-fluid" src="storage/cover_images/<?php echo e($produitsPlateau->product_image); ?>" alt="<?php echo e($produitsPlateau->product_image); ?>"> 
                             </a>
                             <div class="text py-3 pb-4 px-3 text-center">
                                 <h3><a href="<?php echo e(URL::to('/single_product/'.$produitsPlateau->id)); ?>"><?php echo e($produitsPlateau->nom_produit); ?></a></h3>
